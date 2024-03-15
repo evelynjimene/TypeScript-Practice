@@ -5,3 +5,9 @@ if (Math.random() > 0.5) {
 } else {
   phoneNumber = '7167762323'; 
 }
+
+let answerToLife;
+answerToLife = 42;
+answerToLife = 'forty two';
+
+// this code will compile w/o any issues, since answerToLife is typed as any
